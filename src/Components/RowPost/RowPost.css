@@ -1,0 +1,33 @@
+.row{
+    margin-left: 8px;
+    color:#fff;
+}
+
+.mm{
+    padding-bottom: 10px;
+    padding-left: 3px;
+}
+.posters{
+    display: flex;
+    padding: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.posters::-webkit-scrollbar{
+    display: none;
+}
+
+
+.poster{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 250px;
+    margin-right: 20px;
+}
+
+.smallPoster{
+    margin-right: 15px;
+    max-height: 200px;
+}
